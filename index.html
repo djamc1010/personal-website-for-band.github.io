@@ -1,75 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="styles.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Band Website</title>
     <style>
         body {
             font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
             margin: 0;
             padding: 0;
-            background: linear-gradient(135deg, #f0f0f0, #ccc);
         }
+
         header {
-            background: linear-gradient(135deg, #e50000, #0033cc); /* Red and Blue */
-            color: #fff;
-            padding: 20px 0;
+            background-color: #003366; /* Dark blue */
+            color: #ffffff; /* White */
+            padding: 20px;
             text-align: center;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-            border-top-left-radius: 20px;
-            border-top-right-radius: 20px;
         }
+
         nav {
-            background-color: #fff; /* White */
-            padding: 10px 0;
+            background-color: rgba(255, 0, 0, 0.747); /* Red */
+            padding: 10px;
             text-align: center;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-            border-bottom-left-radius: 20px;
-            border-bottom-right-radius: 20px;
         }
+
         nav a {
-            color: #0033cc; /* Blue */
+            color: white;
             text-decoration: none;
             margin: 0 10px;
-            font-size: 18px;
-            border-bottom: 2px solid transparent;
-            transition: border-color 0.3s ease;
         }
-        nav a:hover {
-            color: #e50000; /* Red */
-            border-color: #e50000; /* Red */
-        }
+
         .content {
-            max-width: 1200px;
-            margin: 20px auto;
             padding: 20px;
-            background-color: #fff;
-            border-radius: 10px;
-            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-            border: 5px solid #0033cc; /* Blue */
         }
-        .trumpet-img {
-            text-align: center;
+
+        .upcoming-events {
+            background-color: #f2f2f2;
+            padding: 20px;
             margin-bottom: 20px;
         }
-        .trumpet-img img {
-            width: 100%;
-            max-width: 600px;
-            height: auto;
+
+        .upcoming-events h2 {
+            color: #003366; /* Dark blue */
+            margin-top: 0;
         }
-        footer {
-            background: linear-gradient(135deg, #e50000, #0033cc); /* Red and Blue */
-            color: #fff;
-            padding: 20px 0;
+
+        .upcoming-events ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .upcoming-events li {
+            margin-bottom: 10px;
+        }
+
+        .trumpet-img {
             text-align: center;
-            margin-top: 20px;
-            box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
-            border-bottom-left-radius: 20px;
-            border-bottom-right-radius: 20px;
         }
-        footer p {
-            margin: 0;
+
+        footer {
+            background-color: #003366; /* Dark blue */
+            padding: 20px;
+            text-align: center;
+            color: #ffffff; /* White */
+        }
+
+        footer img {
+            max-width: 100%;
         }
     </style>
 </head>
@@ -80,24 +79,41 @@
     </header>
     <nav>
         <a href="https://www.srmsmustangband.com/">Official SRMS band website</a>
-        <a href="https://static1.squarespace.com/static/5f2d8b6ef9a04d18dfa46f8f/t/64c1533a862c40115ef35140/1690391355134/2023-2024+Calendar.pdf">Calendar</a>
-        <a href="https://okaloosaschools-my.sharepoint.com/:x:/p/croucdj_student/EbFKrg8lop9AlaDjEA-E0coBCKbDUfn6c4ZKdvoc2BOjNA?e=VjgCcd">Pass off Recording Sheet</a>
+        <a href="https://okaloosaschools-my.sharepoint.com/:x:/r/personal/croucdj_student_okaloosaschools_com/Documents/Band%20passoffs%20recording%20sheet.xlsx?d=we0192ffaa9974793a9f47cc48a6bb062&csf=1&web=1&e=pCBNhB">Pass off Recording Sheet</a>
         <a href="https://www.musictheory.net/">Music theory</a>
         <a href="https://musescore.org/">Musescore</a>
     </nav>
     <div class="content">
+        <div class="upcoming-events">
+            <h2>Upcoming Events</h2>
+            <ul>
+                <li>
+                    <strong>Assessment:</strong> MPA
+                    <br>
+                    <strong>Date:</strong> March 13, 2024
+                    <br>
+                    <strong>Time:</strong> After School
+                    <br>
+                    <strong>Location:</strong> Fwb High School
+                </li>
+                <li>
+                    <strong>Spring Concert:</strong> State Band Competition
+                    <br>
+                    <strong>Date:</strong> April 23, 2024
+                    <br>
+                    <strong>Location:</strong> SRMS Gym
+                </li>
+            </ul>
+        </div>
         <div class="trumpet-img">
             <img src="images/Trumpet.png" alt="Trumpet">
         </div>
-
         <p style="text-align: center;"></p>
         <h2 style="text-align: center;">This is my personal Band Website</h2>
-     
         <p style="text-align: center;">I use this for shortcuts to band related things.</p>
-       
     </div>
     <footer>
-        
+        <img src="images/March Calendar.png" alt="March Calendar Band">
     </footer>
 </body>
 </html>
